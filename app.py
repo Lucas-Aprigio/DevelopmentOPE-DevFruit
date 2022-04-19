@@ -41,5 +41,5 @@ def endereco():
     return render_template('endereco.html')
 
 if __name__=='main':
-    app.run()
+    app.run(debug=True,host='0.0.0.0',port=5000)
 
